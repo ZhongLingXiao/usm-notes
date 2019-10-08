@@ -1,0 +1,47 @@
+1. 基础技术框架
+    - C++
+        - Runtime type的解决方法，节点类型转换
+        - boost::sigals2: 节点之间的通讯，更好的封装方式
+        - 是否使用智能指针<memory>中的方法，还是使用raw pointer或者boost::intrusive_ptr ?
+        - python绑定方法: pybind11 / boost.python ?
+        - 第三方高性能log库 or usd中的log ？
+        - 包管理
+            conan
+        - test
+            Catch2
+
+
+2. UI/UX
+
+    - 节点部分参考: https://github.com/unconed/shadergraph
+    - 基本界面: Metro / FlatUI style / Material Design ?
+    - 传统Qt Widget还是考虑QtQuick？
+
+
+- Pre Phase(技术验证阶段))
+
+    - python bind: pybin11(已完成)， boost python(未完成)
+    - Node & smart pointer
+    - boost::sigal2
+    - runtime type
+
+
+- Phase 1: (platform: win10, msvc14.2, boost 1.7.1, python2.7)
+
+    - signals
+    - node & plug
+        - read node
+        - write node
+        - script node
+    - editor (PyQt5) 
+        - opengl hydra view
+        - graph UI
+        - tree view UI
+        - attribute editor UI
+        - script UI
+        - output or debug UI
+    - USD
+        - USD Glossary
+        - Hydra basic(完成)
+        - Hydra intermediate
+        - Hydra advance
