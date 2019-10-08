@@ -33,6 +33,8 @@
         - read node
         - write node
         - script node
+        - backdrop
+        - note
     - editor (PyQt5) 
         - opengl hydra view
         - graph UI
@@ -45,3 +47,6 @@
         - Hydra basic(完成)
         - Hydra intermediate
         - Hydra advance
+    - subgraph
+    - promote attribute到上一层
+    - do / redo / undo 功能
